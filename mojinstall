@@ -8,20 +8,15 @@ DISK="wd0"
 #NAMESERVER="192.168.69.2 192.168.69.3" # Up to three
 #GATE=192.168.69.1
 #MASK=255.255.255.0
-DOMAIN=example.com
+DOMAIN="aster.pl"
 SEARCH="$DOMAIN"
 
 ROOTPW='$2a$06$Feuy6hwjHkDKJygMkxgFO.NKm3MHD9h61voLHWi0OBq8INbQ7dUHa'
-
-
-
 
 echo "Automagiczny instalator Swierszcza - OpenBSD"
 
 echo "Po skonczonej instalacji Swiersz zostanie zrestartowany"
 
-
-DOMAIN="aster.pl"
     echo -n "Nazwa Swierszcza? (lub sh startuje shella): "
     #read HOSTNAME
     HOSTNAME="swierszcz"
